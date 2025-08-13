@@ -34,6 +34,6 @@ public:
 	void BindEnhancedInput();
 	void UnbindEnhancedInput();
 
-	void OnMove(const FInputActionValue& value);
-	void OnDash(const FInputActionValue& value);	
+	void OnMove(const FInputActionValue& Value);
+	void OnDash(const FInputActionValue& Value);	
 };
